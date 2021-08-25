@@ -10,7 +10,7 @@
 }
 
 #panel .upper {
-  padding:10px;
+  display: none;
 }
 
 .wrapper {
@@ -18,11 +18,21 @@
     flex-direction: column;
 }
 
-.oc-time {
-      font-size: .6em;
-    padding: 5px;
+#panel .lower ul.panel_links {
+      margin: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.wrapper .welcome {
-  font-size:.7em;
+#panel .lower ul.user_links {
+  margin: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.quickthread_button {
+      position: fixed;
 }
